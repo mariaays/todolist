@@ -1,0 +1,92 @@
+body {
+    font-family: 'Indie Flower', cursive;
+   /* background-color: rgba(250, 245, 147, 0.7); */
+    font-size: 18px;
+    background-image: url("flowers.jpg");
+}
+
+#content {
+    margin: auto;
+    width: 50%;
+}
+h2 {
+    padding: 5px; /* inner spaces */
+    margin: 3px; /* outer spaces */
+    text-align: center;
+}
+
+#addcontent{
+    padding: 5px;
+    margin: 3px;
+    margin: auto;
+    width: 260px;
+    position: relative;
+    /*left: 100px; */
+    background-color: rgba(255, 184, 249, 0.75);
+    border-style: solid;
+    border-color: rgba(255, 184, 249, 1);
+}
+#addcontent #newInput {
+    position: relative;
+    left: 10px;
+}
+#addcontent .addBtn {
+    background-color: rgba(187, 222, 252, 0.8);
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgba(242, 255, 253, 1);
+    padding-top: 0px;
+    padding: 2px;
+    margin: 6px;
+    position: relative;
+    left: 8px;
+    bottom: 2px;
+    width: 20px;
+    font-size: 12px;
+    text-align: center;
+}
+
+#addcontent .addBtn:hover {
+    background-color: rgba(187, 222, 252, 1);
+    cursor: pointer;
+}
+
+#addcontent #newInput {
+    background-color: rgba(187, 222, 252, 1);
+}
+
+#todolist {
+    width: 260px;
+    height: auto;
+    position: relative;
+    /* left: 102px; */
+    margin: auto;
+    margin-top: 5px;
+    background-color: rgba(255, 184, 249, 0.75);
+    border-style: solid;
+    border-color: rgba(255, 184, 249, 1);
+    
+}
+
+ul li:hover {
+    color: rgba(59, 164, 255, 1);
+}
+
+ul li.checked {
+    text-decoration: line-through;
+}
+
+ul li.checked:hover {
+    color: black;
+}
+
+.close {
+    padding-left: 15px;
+    position: absolute;
+    color: rgba(59, 164, 255, 1);
+}
+
+.close:hover {
+    color: white;
+    cursor: pointer;
+}
